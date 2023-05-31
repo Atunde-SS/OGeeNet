@@ -1,0 +1,170 @@
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #94d6c9;
+  color: #fff;
+}
+
+header img {
+  width: 40px;
+}
+
+/* Navigation */
+nav.sidebar {
+  width: 250px;
+  background-color: #94d6c9;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Section 1 */
+.section1 {
+  padding: 50px;
+  background-color: #6b8e78; /* Grey green color with gradients */
+  background-image: linear-gradient(to bottom right, #6b8e78, #405d51);
+  color: #fff;
+}
+
+.section1 h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.section1 p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.buttons .button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section 2 */
+.section2 {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.section2 h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.section2 .subsection:nth-child(1) {
+  background-image: url('NFT1.png'); /* Image background */
+  background-size: cover;
+  background-position: center;
+}
+
+.section2 .subsection:nth-child(2) {
+  background-image: url('NFT2.png'); /* Image background */
+  background-size: cover;
+  background-position: center;
+}
+
+.section2 .subsection h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section2 .subsection p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.section2 .subsection ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Section 3 */
+.section3 {
+  padding: 50px;
+  background-color: #f0f0f0;
+}
+
+.section3 h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.section3 .subsection:nth-child(1) {
+  background-color: #d2b48c; /* Light golden brown */
+}
+
+.section3 .subsection:nth-child(2) {
+  background-image: url('NFT3.png'); /* Image background */
+  background-size: cover;
+  background-position: center;
+}
+
+.section3 .subsection:nth-child(3) {
+  background-color: #d1ff9b; /* Light green yellow color */
+}
+
+.section3 .subsection h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section3 .subsection p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Section 4 */
+.section4 {
+  padding: 50px;
+  background-color: #94d6c9;
+}
+
+.section4 h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.section4 .subsection:nth-child(1) {
+  background-color: #f7c6de; /* Light pink green */
+}
+
+.section4 .subsection:nth-child(2)
+.section4 .subsection:nth-child(2) {
+  background-color: #ffccd2; /* Light blue red */
+}
+
+.section4 .subsection:nth-child(3) {
+  background-color: #b9c1e1; /* Light grey blue */
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
